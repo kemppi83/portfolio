@@ -35,9 +35,19 @@ export const projectsData = [
     title: 'EatLocal',
     info: "My mob's two-week graduation project at the </salt> bootcamp. We wanted to bring justice to Swedish farmers by creating a food box subscription platform where all ingredients come from local farms.",
     info2:
-      'EatLocal is a fully functional platform based on the MERN stack and utilising external services Mapbox, Stripe and Okta.',
+      'EatLocal is a fully functional platform based on the MERN stack and utilising external services Mapbox, Stripe and Okta. The frontend is deployed to Netlify and the backend to Heroku.',
     url: 'https://eatlocal.netlify.app/',
     repo: 'https://github.com/kemppi83/EatLocal', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'GBG-events.jpg',
+    title: 'Gothenburg events',
+    info: 'During the Salt bootcamp hackday, I created an app that shows events coming up in Gothenburg.',
+    info2:
+      "The app has React frontend and Node/Express REST API backend. The backend fetches its data form Gothenburg city's official event API called Kalendarium. The frontend is deployed to Netlify and the backend to Heroku.",
+    url: 'https://gothenburg-events.netlify.app/',
+    repo: 'https://github.com/kemppi83/gothenburg-events', // if no repo, the button will not show up
   },
 ];
 
