@@ -49,6 +49,15 @@ export const projectsData = [
     url: 'https://gothenburg-events.netlify.app/',
     repo: 'https://github.com/kemppi83/gothenburg-events', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'Todo React.jpg',
+    title: 'React to-do app',
+    info: 'My version of the classic todo-app.',
+    info2: 'The app is written in React frontend and it is deployed to Netlify.',
+    url: 'https://pensive-cray-04f940.netlify.app/',
+    repo: 'https://github.com/kemppi83/todo-react', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
